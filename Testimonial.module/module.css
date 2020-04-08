@@ -1,0 +1,12 @@
+.testimonial {
+  text-align: center;
+}
+
+.testimonial__header {
+  font-weight: bold;
+}
+
+.testmonial__picture {
+  display: block;
+  margin: auto;
+}

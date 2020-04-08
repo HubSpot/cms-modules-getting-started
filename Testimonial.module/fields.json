@@ -1,0 +1,41 @@
+[
+  {
+    "label": "Customer Name",
+    "name": "customer_name",
+    "id": "2a025cd5-7357-007f-ae2f-25ace762588e",
+    "type": "text",
+    "required": true,
+    "locked": false,
+    "validation_regex": "",
+    "allow_new_line": false,
+    "show_emoji_picker": false,
+    "default": "Sally"
+  },
+  {
+    "label": "Profile Picture",
+    "name": "profile_pic",
+    "id": "7877fb84-eb8a-d2c7-d939-77e6e9557d8f",
+    "type": "image",
+    "required": false,
+    "locked": false,
+    "responsive": true,
+    "resizable": true,
+    "default": {
+      "src": "https://cdn2.hubspotqa.net/hubfs/101140939/profile-pic-sally.svg",
+      "alt": "Sally Profile Picture",
+      "width": 100,
+      "height": 100,
+      "max_width": 100,
+      "max_height": 100
+    }
+  },
+  {
+    "label": "Testimonial",
+    "name": "testimonial",
+    "id": "c5524ece-1ab5-f92d-a5de-e2bf53199dfa",
+    "type": "richtext",
+    "required": false,
+    "locked": false,
+    "default": "<p>I’ve had nothing but wonderful experiences with this company. I would 100% recommend it to my colleagues and friends.</p>"
+  }
+]
